@@ -11,13 +11,13 @@ python pip install onelinevalidation
 ## Examples
 
 ```python
-
+"""
 In default sanitize = True
 in validate_form
 and custom_validate
 This is to prevent a Cross-site Scripting vulnerability
 For more https://owasp.org/www-community/attacks/xss/
-
+"""
 
 userData = {"username": "amr123", "email": "amr.@aol.com", "password": "123Ab#"}
 print(validate_form(userData))
